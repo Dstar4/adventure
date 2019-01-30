@@ -186,16 +186,19 @@ img {
 }
 nav {
   font-size: 2em;
-  margin: 2%;
-  width: 40%;
+  padding: 2% 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 nav a {
   text-decoration: none;
   color: #2f4f4f;
-  margin: 0 2% 0 3%;
-  padding-left: 3% ;
+  padding: 20px 5%;
   font-weight: 600;
   border-left: 3px solid #b0c4de;
+  border-radius: 2px;
 }
 nav a:hover {
   text-decoration: underline;
