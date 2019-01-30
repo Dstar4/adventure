@@ -186,12 +186,19 @@ img {
 }
 nav {
   font-size: 2em;
+  margin: 2%;
+  width: 40%;
 }
 nav a {
   text-decoration: none;
   color: #2f4f4f;
   margin: 0 2%;
-  padding: 2% 0;
+  padding: 3%;
+  font-weight: 600;
+  border-left: 3px solid #b0c4de;
+}
+nav:hover {
+  text-decoration: underline;
 }
 .container header {
   width: 100%;
