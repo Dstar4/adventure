@@ -131,6 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  background: #b0c4de;
 }
 html,
 body {
@@ -142,6 +143,9 @@ h3,
 h4,
 h5 {
   font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 5em;
 }
 @media (max-width: 500px) {
   h1 {
@@ -176,7 +180,23 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
-  width: 80%;
+  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
+}
+nav {
+  font-size: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: #2f4f4f;
+  margin: 0 2%;
+  padding: 2% 0;
+}
+.container header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  background-color: #778899;
 }
