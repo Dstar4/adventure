@@ -135,14 +135,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lobster', cursive;
 }
 h1 {
   font-size: 5em;
@@ -206,4 +206,29 @@ nav a:hover {
   justify-content: space-between;
   padding: 10px 0 10px 0;
   background-color: #778899;
+  border-top: 5px solid #2f4f4f;
+}
+.container .nav-text {
+  margin-left: 2%;
+}
+.container .banner-content {
+  background-color: #808000;
+}
+.container .banner-text {
+  padding: 2%;
+}
+.container .top-split-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #696969;
+}
+.container .middle-text {
+  width: 47%;
+  margin: 2%;
+}
+.container .middle-img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 375px;
 }
