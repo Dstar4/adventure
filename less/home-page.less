@@ -1,7 +1,6 @@
 
 .container {
 
-
     header {
         width: 100%;
         display: flex;
@@ -18,20 +17,42 @@
     }
     .banner-text {
         padding: 2%;
+        display: flex;
+        justify-content: center;
+        
+        p {
+            padding-left: 2%;
+            margin-left: 2%;
+            border-left: dashed @grey 1px;
+        }
     }
     .top-split-row {
         display: flex;
         justify-content: space-between;
         background-color: @grey;
+        border-top: 5px solid @dark-green;
+        align-items: center;
     }
     .middle-text {
-        width: 47%;
-        margin: 2%;
+        width: 46%;
+        padding: 2% 4%;
+        line-height: 30px;
+        color: black;
     }
     .middle-img {
+        margin: 0 2%;
         height: auto; 
         width: auto; 
         max-width: 500px; 
         max-height: 375px;
+        // border: 2px solid @dark-green;
+        .lt-box-shadow;
+    }
+    .bottom-split-row {
+        display: flex;
+        justify-content: space-between;
+        background-color: @grey;
+        border-top: 5px solid @mustard;
+        align-items: center;
     }
 }

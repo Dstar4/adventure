@@ -1,3 +1,6 @@
+@lt-box-shadow {
+  box-shadow: 0 4px 6px 0 #778899;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -187,7 +190,7 @@ img {
 nav {
   font-size: 2em;
   padding: 2% 0;
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -219,19 +222,40 @@ nav a:hover {
 }
 .container .banner-text {
   padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+.container .banner-text p {
+  padding-left: 2%;
+  margin-left: 2%;
+  border-left: dashed #696969 1px;
 }
 .container .top-split-row {
   display: flex;
   justify-content: space-between;
   background-color: #696969;
+  border-top: 5px solid #2f4f4f;
+  align-items: center;
 }
 .container .middle-text {
-  width: 47%;
-  margin: 2%;
+  width: 46%;
+  padding: 2% 4%;
+  line-height: 30px;
+  color: black;
+  box-shadow: 0 4px 6px 0 #778899;
 }
 .container .middle-img {
+  margin: 0 2%;
   height: auto;
   width: auto;
   max-width: 500px;
   max-height: 375px;
+  box-shadow: 0 4px 6px 0 #778899;
+}
+.container .bottom-split-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #696969;
+  border-top: 5px solid #808000;
+  align-items: center;
 }
