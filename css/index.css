@@ -188,17 +188,19 @@ img {
 nav {
   border-top: 5px solid #2f4f4f;
   font-size: 2em;
-  padding: 2% 0;
+  padding: 1% 0;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   z-index: 1;
   position: fixed;
+  background-color: #556b2f;
+  opacity: 0.8;
 }
 nav a {
   text-decoration: none;
   color: white;
-  padding: 20px 3%;
+  padding: 10px 3%;
   font-weight: 600;
   border-left: 3px solid white;
   border-radius: 2px;
@@ -214,6 +216,32 @@ html {
 .bg {
   /* The image used */
   background-image: url("/src/images/bg-image.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.main-bg {
+  /* The image used */
+  background-image: url("/src/images/forest-landscape-nature-6921.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.main-bg-btm {
+  /* The image used */
+  background-image: url("/src/images/animal-beautiful-bright-1096293.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -247,18 +275,20 @@ header {
   margin-left: 2%;
   border-left: dashed #696969 1px;
 }
-.top-split-row {
-  display: flex;
-  justify-content: space-around;
+.text-overlay {
   background-color: #696969;
-  border-top: 5px solid #2f4f4f;
-  align-items: center;
+  margin: 10% 10%;
+  border-radius: 20%;
+  opacity: 0.8;
 }
 .middle-text {
-  width: 46%;
-  padding: 2% 4%;
-  line-height: 30px;
-  color: black;
+  margin: 5% 5%;
+  line-height: 2em;
+  color: white;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .middle-img {
   margin: 0 2%;

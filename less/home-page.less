@@ -18,6 +18,33 @@
         text-align: center;
         align-items: center;
     }
+    .main-bg {
+        /* The image used */
+        background-image: url("/src/images/forest-landscape-nature-6921.jpg");
+
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .main-bg-btm {
+        /* The image used */
+        background-image: url("/src/images/animal-beautiful-bright-1096293.jpg");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
     header {
         width: 100%;
         justify-content: center;
@@ -42,18 +69,20 @@
             border-left: dashed @grey 1px;
         }
     }
-    .top-split-row {
-        display: flex;
-        justify-content: space-around;
+    .text-overlay {
         background-color: @grey;
-        border-top: 5px solid @dark-green;
-        align-items: center;
+        margin: 10% 10%;
+        border-radius: 20%;
+        opacity: .8;
     }
     .middle-text {
-        width: 46%;
-        padding: 2% 4%;
-        line-height: 30px;
-        color: black;
+        margin: 5% 5%;
+        line-height: 2em;
+        color: white;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items:center;
     }
     .middle-img {
         margin: 0 2%;
