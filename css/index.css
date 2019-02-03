@@ -1,5 +1,5 @@
-@lt-box-shadow {
-  box-shadow: 0 4px 6px 0 #778899;
+.width-100 {
+  width: 100%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -303,4 +303,90 @@ header {
   background-color: #696969;
   border-top: 5px solid #808000;
   align-items: center;
+}
+.list {
+  font-size: 2rem;
+  height: 800px;
+  background-color: #2f4f4f;
+}
+.list .menu-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list .title {
+  font-size: 4rem;
+}
+.list .topics {
+  display: flex;
+  flex-direction: row;
+}
+.list .topics .tab {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 15px 1em;
+  padding: 15px 2em;
+  background-color: #778899;
+  color: #2f4f4f;
+  font-weight: 500;
+}
+.list .topics .tab:hover {
+  color: #778899;
+  background-color: #2f4f4f;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cards-container .card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  width: 450px;
+  height: 20rem;
+  background-color: #778899;
+  opacity: 0.8;
+  margin: 1em;
+}
+.cards-container .card:hover {
+  color: #778899;
+  background-color: #b0c4de;
+  cursor: pointer;
+}
+.cards-container .card .panel-content {
+  display: none;
+}
+.cards-container .headline {
+  font-size: 4rem;
+}
+.cards-container .author {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 6rem;
+}
+.cards-container .author span {
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.cards-container .img-container {
+  width: 10rem;
+}
+.cards-container .img-container img {
+  max-width: 100%;
+  height: auto;
 }

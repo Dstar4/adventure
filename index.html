@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Adventure</title>
+    <title>Guidr</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
-    <script src="js/index.js" async></script>
+    <script src="js/tabs.js" async></script>
 
 </head>
 
@@ -114,7 +114,78 @@
                         </div>
 
                     </div>
-            </section> -->
+            </section>
+
+            <!-- LIST COMPONENTS -->
+            <section class="list">
+                <!-- <div class="background-img"> -->
+
+                <!-- TABS COMPONENTS -->
+                <div class="menu-selector">
+                    <div class="tabs">
+                        <span class="title">TRENDING TRIPS:</span>
+                    </div>
+                    <div class="topics">
+                        <div data-tab="all" class="tab active-tab">ALL</div>
+                        <div data-tab="professional" class="tab">PROFESSIONAL</div>
+                        <div data-tab="personal" class="tab">PERSONAL</div>
+                    </div>
+                </div>
+                <div class="cards-container">
+                    <!-- CARD COMPONENTS -->
+                    <div class="card" data-tab="personal">
+                        <div class="headline">My trip in the Appalachian Mountains</div>
+                        <div class="author">
+                            <div class="img-container">
+                                <img src="src/images/sir.jpg" />
+                            </div>
+                            <div class="card-bottom-items">
+                                <span>By SIR RUFF'N'STUFF</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-tab="professional">
+                        <div class="headline">Use what happens naturally, don't fight it.</div>
+                        <div class="author">
+                            <div class="img-container">
+                                <img src="src/images/fido.jpg" />
+                            </div>
+                            <span>By Bob Ross</span>
+
+                        </div>
+                    </div>
+                    <div class="card" data-tab="personal">
+                        <div class="headline">All you have to learn here is how to have fun.
+                        </div>
+                        <div class="author">
+                            <div class="img-container">
+                                <img src="src/images/max.jpg" />
+                            </div>
+                            <span>ByLuke Skywalker</span>
+                            <div class="panel-content">
+                                <p>Exercising the imagination, experimenting with talents, being creative; these
+                                    things, to me, are truly the windows to your soul. If you hypnotize it, it will
+                                    go
+                                    away. See how easy it is to create a little tree right in your world. It's
+                                    beautiful - and we haven't even done anything to it yet. Let's put some happy
+                                    little clouds in our world. And maybe a little bush lives there.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-tab="personal">
+                        <div class="headline">All you have to learn here is how to have fun.
+                        </div>
+                        <div class="author">
+                            <div class="img-container">
+                                <img src="src/images/puppers.jpg" />
+                            </div>
+                            <span>By Darth Puppers</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- </div> -->
+            </section>
         </main>
     </div>
 </body>

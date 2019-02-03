@@ -1,0 +1,93 @@
+.list {
+    // .wire-border;
+    // margin: 20px;
+    font-size: 2rem;
+    height: 800px;
+    // padding-top: 20px;
+    background-color: @dark-green;
+    // .background-img{
+    //     background-image: url("/src/images/balance-esoterik-even-9267.jpg");
+    //     height: 100%;
+    //     /* Center and scale the image nicely */
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     text-align: center;
+    //     padding-top: 20px;
+    // }
+    .menu-selector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+    .title {
+        font-size: 4rem;
+        // .wire-border;
+    }
+    .topics {
+    display: flex;
+    flex-direction: row;
+
+        .tab {
+                cursor: pointer;
+                .flex(center , center);
+                .wire-border;
+                margin: 15px 1em;
+                padding: 15px 2em;
+                background-color: @blue-grey;
+                color: @dark-green;
+                font-weight: 500;
+                &:hover  {
+                    color: @blue-grey;
+                    background-color: @dark-green;
+                }
+            }
+        }
+    }
+    .cards-container {
+        .flex(center);
+        .width-100;
+        flex-wrap: wrap;
+
+        .card {
+            .wire-border;
+            .flex(space-between, none, column);
+            width: 450px;
+            height: 20rem;
+            background-color: @blue-grey;
+            opacity: .8;
+            margin: 1em;
+            &:hover  {
+                color: @blue-grey;
+                background-color: @whiteish;
+                cursor: pointer;
+            }
+            .panel-content {
+                display:none;
+            }
+        }
+        .headline {
+        font-size: 4rem;
+        }
+        .author {
+            .flex(none, center);
+            flex-wrap: wrap;
+            font-size: 6rem;
+        
+        span {
+            padding-left: 10px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            }
+        }
+        .img-container {
+            width: 10rem;
+            // .wire-border;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    
+}

@@ -6,6 +6,21 @@
 //     color: @color;
 // }
 
-@lt-box-shadow {
+.lt-box-shadow() {
     box-shadow: 0 4px 6px 0 @blue-grey;
 }
+
+.wire-border() {
+    border: 1px solid black;
+ }
+ 
+.width-100 {
+    width: 100%;
+ }
+ .flex(@jc: none, @ai: none, @dir: row) {
+    display: flex;
+    justify-content: @jc;
+    align-items: @ai;
+    flex-direction: @dir;
+  }
+ 
